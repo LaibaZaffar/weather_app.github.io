@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Weather Application</title>
+    </head>
+
+    <body class="main-div">
+
+        <div class="weather">
+            <h1 id="city" style="margin:0px;"> Chiniot </h1>
+            <small>
+                <span id="date">
+                    14 : 24 - Saturday, Mar 16, 2024
+                </span>
+            </small>
+            <h2 id="temp"> 23&#176;C</h2>
+        </div>
+
+        <div class="panel">
+
+            <input type="text" class="search" id="search" name="search"
+                autocomplete="off"
+                placeholder="Search Location...">
+            <button type="submit" class="submit" id="submitBtn">
+                <img src="searchh.png">
+            </button>
+
+            <h1>Weather Details</h1>
+
+            <div class="card-container">
+
+                <div class="card" style="width: 40rem;">
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                            <span class="names">Temperature</span>
+                            <span id="cloud">
+                               29.9&#176;C
+                            </span></li>
+                        <li class="list-group-item">
+                            <span class="names">Feels Like</span>
+                            <span id="feels_like">
+                                22.26&#176;C
+                            </span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="names">Temp_Min</span>
+                            <span id="temp_min">
+                                23.37&#176;C
+                            </span>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="card"
+                    style="width: 40rem;">
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                            <span>Temp_Max</span>
+                            <span id="max_temp">
+                                23.37&#176;C
+                            </span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Pressure</span>
+                            <span id="pressure">
+                                1014 m/s
+                            </span>
+                        </li>
+                        <li class="list-group-item">
+                            <span>Humidity</span>
+                            <span id="humidity">
+                                19%
+                            </span>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="main.js"></script>
+        <!-- ------- -->
+
+    </body>
+</html>
