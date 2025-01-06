@@ -34,7 +34,7 @@ This application uses a weather API to fetch real-time data. To use the API, you
 **-** Sign up on the weather API provider's website to get an API key.
 **-** In the main.js file, replace **'YOUR_API_KEY'** with your actual API key:
    ```bash
-    const apiKey = 'YOUR_API_KEY';
+const apiKey = 'YOUR_API_KEY';
    ```
 
 
